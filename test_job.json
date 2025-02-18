@@ -2,7 +2,7 @@
     "apiVersion": "batch/v1",
     "kind": "Job",
     "metadata": {
-        "name": "pi-simple-deploy",
+        "name": "pi-simple-deploy-${agent_type}",
         "namespace": "ue-extensions"
     },
     "spec": {
